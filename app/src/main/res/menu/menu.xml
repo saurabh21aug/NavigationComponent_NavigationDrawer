@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--    make sure id name of items, should be the same id of fragment id whit is used in nav_graph_main-->
+    <item
+        android:id="@+id/fragment1"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/fragment2"
+        android:title="@string/food" />
+    <item
+        android:id="@+id/fragment3"
+        android:title="@string/settings" />
+
+</menu>
